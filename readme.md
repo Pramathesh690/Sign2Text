@@ -52,6 +52,8 @@ The tools that have been used in the project are:
 
 This project implements a sign language to text conversion system for the American Sign Language (ASL) alphabet using Python, MediaPipe, and machine learning. A custom dataset of 1000 images per sign is created to ensure control over data variations and minimize bias, rather than relying on potentially unsuitable pre-existing datasets. MediaPipe's Hands pipeline extracts 21 3D hand landmarks from each image, providing a robust representation of hand shape. Crucially, landmark coordinates are normalized for position invariance, making the system resilient to hand placement variations within the frame. A Random Forest classifier is trained on this normalized landmark data for ASL sign recognition. The project prioritizes a landmark-based approach over direct image processing due to the challenges of single-hand ASL recognition and variations in hand positioning. Normalization addresses these issues by focusing on relative hand shape. The Random Forest classifier is chosen for its robustness, speed, and suitability for this type of data. This repository provides the code and resources to replicate and extend this sign language recognition system.
 
+![Sign2Text](./assets/A_Prediction_Alphabet.png)
+
 ### Prerequisites
 
 - **Python 3.7+** (Recommended: 3.8 or 3.9)
