@@ -20,6 +20,8 @@ Hand gestures, the language of the deaf community, contain a wealth of informati
 
 MediaPipe Hand Landmarks refer to a set of 21 key points on a human hand, detected by a machine learning model within the MediaPipe framework. These landmarks allow for precise tracking of hand movements by identifying locations such as fingertips, wrist joints, and the palm center, enabling applications like gesture recognition and hand interaction in augmented reality. Using MediaPipe, hand gestures and finger positions are easily tracked. Based on the positions of these key points, a model is trained to predict alphabetic characters.
 
+![Sign2Text](./assets/Landmark.png)
+
 Computer vision libraries like OpenCV are used to access images from a webcam. These libraries also provide the added advantage of processing video streams from the camera and individual frames as images.  Image processing capabilities include resizing, color conversion, and frame-by-frame processing.
 
 Deep learning/machine learning models, built using Scikit-learn and TensorFlow, use hand landmarks to predict alphabetic characters. In this project, we utilize a Random Forest Classifier.
