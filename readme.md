@@ -37,7 +37,7 @@ Deep learning/machine learning models, built using Scikit-learn and TensorFlow, 
 
 The tools that have been used in the project are:
 
-- **Scikit-learn **
+- **Scikit-learn**
 - **Mediapipe**
 - **OpenCV**
 - **Python**
